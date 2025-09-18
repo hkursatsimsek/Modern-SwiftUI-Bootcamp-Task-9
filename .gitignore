@@ -1,0 +1,79 @@
+# Swift / Swift Package Manager
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+!default.xcworkspace/contents.xcworkspacedata
+*.xcuserstate
+DerivedData/
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
+*.xcuserdatad
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.xcsettings
+*.xcconfig
+*.xcscheme
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# CocoaPods
+Pods/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Tuist / Mint / Other Tools
+Tuist/Derived/
+Mint/Packages/
+Mint/bin/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# SwiftLint / SwiftFormat
+.swiftlint.yml
+.swiftformat
+
+# Logs & Temps
+*.log
+*.swp
+*.swo
+*.tmp
+*.orig
+
+# Environment files
+.env
+.env.*
+
+# Firebase / GoogleService
+GoogleService-Info.plist
+GoogleService-Info*.plist
+
+# Output / Cache
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcarchive
