@@ -6,10 +6,8 @@
 //
 //
 
-public import Foundation
-public import CoreData
-
-public typealias NoteEntityCoreDataClassSet = NSSet
+import Foundation
+import CoreData
 
 @objc(NoteEntity)
 public class NoteEntity: NSManagedObject {
