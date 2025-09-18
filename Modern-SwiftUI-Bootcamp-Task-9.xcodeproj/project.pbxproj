@@ -8,11 +8,26 @@
 
 /* Begin PBXFileReference section */
 		7C45949A2E7BD746000E00E9 /* Modern-SwiftUI-Bootcamp-Task-9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modern-SwiftUI-Bootcamp-Task-9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C4594BE2E7BDF45000E00E9 /* NoteEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7C4594BF2E7BDF45000E00E9 /* NoteEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7C4594C22E7BDF63000E00E9 /* Exceptions for "Modern-SwiftUI-Bootcamp-Task-9" folder in "Modern-SwiftUI-Bootcamp-Task-9" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Note.xcdatamodeld,
+			);
+			target = 7C4594992E7BD746000E00E9 /* Modern-SwiftUI-Bootcamp-Task-9 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7C45949C2E7BD746000E00E9 /* Modern-SwiftUI-Bootcamp-Task-9 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7C4594C22E7BDF63000E00E9 /* Exceptions for "Modern-SwiftUI-Bootcamp-Task-9" folder in "Modern-SwiftUI-Bootcamp-Task-9" target */,
+			);
 			path = "Modern-SwiftUI-Bootcamp-Task-9";
 			sourceTree = "<group>";
 		};
@@ -32,6 +47,8 @@
 		7C4594912E7BD746000E00E9 = {
 			isa = PBXGroup;
 			children = (
+				7C4594BE2E7BDF45000E00E9 /* NoteEntity+CoreDataClass.swift */,
+				7C4594BF2E7BDF45000E00E9 /* NoteEntity+CoreDataProperties.swift */,
 				7C45949C2E7BD746000E00E9 /* Modern-SwiftUI-Bootcamp-Task-9 */,
 				7C45949B2E7BD746000E00E9 /* Products */,
 			);
